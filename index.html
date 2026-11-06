@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UnderHit 2026</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="img/iconos/frisk_oro_icono.png" type="image/x-icon">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <div id="botones">
+            <div id="general">
+                <h1>PENALIZACIONES</h1>
+
+                <div id="btn_container">
+                    <div>
+                        <img src="img/iconos/hit_icon.png">
+                        <input id="golpe" type="button" value="GOLPE RECIBIDO">
+                    </div>
+
+                    <div>
+                        <img src="img/iconos/item_icon.png">
+                        <input id="objeto" type="button" value="OBJETO USADO">
+
+                    </div>
+
+                    <div>
+                        <img src="img/iconos/death_icon.png">
+                        <input id="muerte" type="button" value="MUERTE">
+                    </div>
+
+                    <div id="reinicio">
+                        <img src="img/iconos/frisk_oro.png">
+                        <input id="reiniciar" type="button" value="REINICIAR">
+                    </div>
+                </div>
+            </div>
+
+            <div id="rondas">
+                <div class="row tabs">
+                    <div class="tab1 activa">RONDA 1 [ACTUAL]</div>
+                    <div class="tab2">RONDA 2</div>
+                    <div class="tab3">RONDA 3</div>
+                    <div class="tab4">RONDA 4</div>
+                    <div class="tab5">RONDA 5</div>
+                    <div class="tab6">RONDA 6</div>
+                </div>
+
+                <div class="tabcontents">
+                    <div class="tab1 activa">
+                        <input id="maniqui" type="button" value="Hacer que el maniquí salga volando (+40)">
+                        <input id="donuts" type="button" value="Comprar los Spider Donut (+30)">
+                        <input id="ciders" type="button" value="Comprar los Spider Ciders (+60)">
+                        <input id="vegetoid" type="button" value="Recoger 1 verdura verde de Vegetoid (+50)">
+                        <input id="dulces" type="button" value="Tomar los dulces hasta tirarlos (+20)">
+                        <input id="flores" type="button" value="Cruzar el camino de flores sin caer (+40)">
+                        <input id="napstablook" type="button" value="Derrotar a Napstablook sin recibir daño (+100)">
+                        <input id="toriel" type="button" value="Derrotar a Toriel sin recibir daño (+200)">
+                    </div>
+
+                    <div class="tab2">
+                        <img src="img/prox/sans.gif">
+                    </div>
+
+                    <div class="tab3">
+                        <img src="img/prox/sans.gif">
+                    </div>
+
+                    <div class="tab4">
+                        <img src="img/prox/sans.gif">
+                    </div>
+
+                    <div class="tab5">
+                        <img src="img/prox/sans.gif">
+                    </div>
+
+                    <div class="tab6">
+                        <img src="img/prox/sans.gif">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="puntuacion">
+            <div id="puntos">
+                <img src="img/puntos/underhit.png">
+                <p id="cantidad">1000 PUNTOS</p>
+            </div>
+
+            <div id="historial">
+                <!--
+                    Plantillas
+                    <article class="suma"><span class="nombre">Hacer que el maniquí salga volando</span><span class="cantidad">+40</span></article>
+                    <article class="resta"><span class="nombre">Golpe recibido</span><span class="cantidad">-30</span></article>
+                -->
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
