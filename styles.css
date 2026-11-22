@@ -12,7 +12,7 @@
 }
 
 body {
-    background-image: url(img/fondos/ruinas.jpg);
+    background-image: url(img/fondos/snowdin.png);
     background-size: cover;
     padding: 10px;
 
@@ -27,7 +27,7 @@ body {
             flex-direction: column;
 
             #puntos {
-                background-image: url(img/fondos/ruinas.png);
+                background-image: url(img/fondos/snowdin_puntos.png);
                 background-size: cover;
                 border: 5px solid white;
                 display: flex;
@@ -190,8 +190,8 @@ body {
             input[type="button"] {
                 display: block;
                 margin: 15px auto;
-                width: 90%;
-                max-width: 700px;
+                width: 100%;
+                max-width: 800px;
             }
 
             img {

@@ -24,6 +24,15 @@ const botones = [
     { id: "#toriel", puntos: 200, tipo: "suma", src: "img/puntos/toriel.png" },
 
     // RONDA 2
+    { id: "#lesser", puntos: 50, tipo: "suma", src: "img/puntos/lesser.png" },
+    { id: "#heladitos", puntos: 40, tipo: "suma", src: "img/puntos/heladitos.png" },
+    { id: "#snowman", puntos: 80, tipo: "suma", src: "img/puntos/snowman.png" },
+    { id: "#dogami", puntos: 100, tipo: "suma", src: "img/puntos/dogami.png" },
+    { id: "#papyrusPuzzle", puntos: 50, tipo: "suma", src: "img/puntos/papyrusPuzzle.png" },
+    { id: "#monticulos", puntos: 30, tipo: "suma", src: "img/puntos/monticulos.png" },
+    { id: "#glyde", puntos: 100, tipo: "suma", src: "img/puntos/glyde.png" },
+    { id: "#greater", puntos: 120, tipo: "suma", src: "img/puntos/greater.png" },
+    { id: "#papyrus", puntos: 200, tipo: "suma", src: "img/puntos/papyrus.png" }
 
     // RONDA 3
 
